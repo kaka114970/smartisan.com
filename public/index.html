@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>锤子官网</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./css/index-header.css">
     <link rel="stylesheet" href="./iconfont/iconfonttop/iconfont.css">
@@ -23,13 +23,27 @@
             });
         });
     </script>
+    <!-- <script>
+        let previousTop=0;
+        $(window).scroll(function(){
+            let currentTop = $(window).scrollTop();
+            if(currentTop < previousTop){
+                console.log('向上滚动'+currentTop);
+                $('.nav').show();
+            }else{
+                console.log('向下滚动'+currentTop);
+                $('.nav').hide();
+            }
+            previousTop = currentTop;
+        })
+    </script> -->
 </head>
 
 <body>
     <div class="wrap">
         <header class="top-header">
             <h1 class="top-logo">
-                <a href="">
+                <a href="./html/reg.html">
                     <img src="./img/logo.jpg" alt="">
                 </a>
             </h1>
@@ -51,7 +65,7 @@
             </div>
             <div class="top-last">
                 <div class="top-user">
-                    <a href="" class="iconfont">&#xe830;</a>
+                    <a href="./html/log.html" class="iconfont">&#xe830;</a>
                 </div>
                 <div class="top-cart">
                     <a href="" class="iconfont">&#xe61e;</a>
@@ -799,9 +813,9 @@
         </div>
         <div class="activities-wrap">
             <img src="./img/adv.jpg" alt="">
+            <img src="./img/nininininin.webp" alt="">
             <img src="./img/adv.jpg" alt="">
-            <img src="./img/adv.jpg" alt="">
-            <img src="./img/adv.jpg" alt="">
+            <img src="./img/nininininin.webp" alt="">
         </div>
     </div>
     <div class="wrapp">
@@ -809,56 +823,57 @@
             <div class="head">
                 <h5>热门商品</h5>
             </div>
-            <div class="hotgoods">
+            <div class="hotgoods" id="hotd">
                 <ul class="goods">
-                    <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                    <!-- <li><a href="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
                         </a></li>
                     <li><a href="">
-                            <img src="./img/laptop.webp" alt="">
+                            <img data-original="./img/laptop.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
-                        </a></li>
+                        </a></li> -->
+                        
                 </ul>
             </div>
         </div>
@@ -870,10 +885,18 @@
             </header>
             <div class="peijian clearfix">
                 <ul class="maskul">
-                    <li class="mask"><a href=""><img src="./img/adv.jpg" alt=""></a></li>
+                    <li class="mask"><a href=""><img data-original="./img/aiaiaiai.webp" alt="" class="lazy"></a></li>
                     <li>
-                        <a href="">
-                            <img src="./img/phone.webp" alt="">
+                        <a href="./html/details1.html">
+                            <img data-original="./imgs/1-3.webp" alt="" class="lazy">
+                            <h3>坚果 R2</h3>
+                            <h5>是下一代手机，更是下一代电脑</h5>
+                            <span>￥4,799.00</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./html/details1.html">
+                            <img data-original="./img/phone.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -881,7 +904,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phone.webp" alt="">
+                            <img data-original="./imgs/1-1.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -889,7 +912,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phone.webp" alt="">
+                            <img data-original="./imgs/1-3.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -897,7 +920,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phone.webp" alt="">
+                            <img data-original="./img/phone.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -905,15 +928,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phone.webp" alt="">
-                            <h3>坚果 R2</h3>
-                            <h5>是下一代手机，更是下一代电脑</h5>
-                            <span>￥4,799.00</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="./img/phone.webp" alt="">
+                            <img data-original="./imgs/1-3.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -930,10 +945,10 @@
             </header>
             <div class="peijian clearfix">
                 <ul class="maskul">
-                    <li class="mask"><a href=""><img src="./img/adv.jpg" alt=""></a></li>
+                    <li class="mask"><a href=""><img data-original="./img/adv.jpg" alt="" class="lazy"></a></li>
                     <li>
                         <a href="">
-                            <img src="./img/phoneskin.webp" alt="">
+                            <img data-original="./imgs/2-1.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -941,7 +956,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phoneskin.webp" alt="">
+                            <img data-original="./img/phoneskin.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -949,7 +964,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phoneskin.webp" alt="">
+                            <img data-original="./imgs/2-1.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -957,7 +972,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phoneskin.webp" alt="">
+                            <img data-original="./img/phoneskin.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -965,7 +980,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phoneskin.webp" alt="">
+                            <img data-original="./imgs/2-1.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>
@@ -973,7 +988,7 @@
                     </li>
                     <li>
                         <a href="">
-                            <img src="./img/phoneskin.webp" alt="">
+                            <img data-original="./imgs/2-1.webp" alt="" class="lazy">
                             <h3>坚果 R2</h3>
                             <h5>是下一代手机，更是下一代电脑</h5>
                             <span>￥4,799.00</span>

@@ -43,7 +43,20 @@
   width: 100%;
   height: 430px;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: auto;
+}
+.hots .hotgoods::-webkit-scrollbar {
+  width: 600px;
+  height: 10px;
+}
+.hots .hotgoods::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #bbb4b4;
+}
+.hots .hotgoods::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #ededed;
 }
 .hots .hotgoods ul {
   width: 200%;
@@ -165,7 +178,7 @@
   padding-top: 45px;
 }
 .R2 .peijian .maskul li:hover {
-  background: rgba(0, 0, 0, 0.01);
+  background: rgba(0, 0, 0, 0.001);
 }
 .R2 .peijian .maskul .mask {
   float: left;

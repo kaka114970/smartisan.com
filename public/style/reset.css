@@ -4,7 +4,10 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bu
     margin: 0;
     padding: 0
 }
-
+.wrapp{
+    width: 1220px;
+    margin: 0 auto;
+}
 a {
     color: #666;
     cursor: pointer;

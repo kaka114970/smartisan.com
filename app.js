@@ -1,5 +1,6 @@
 const express     = require('express');
 const path        = require('path');
+const productRouter = require('./router/product');
 
 const app         = express();
 const usersRouter = require('./router/users');
@@ -21,7 +22,7 @@ app.use(express.urlencoded({ extended: true })); // post表单数据解析成jso
 //     res.json(req.body)
 // });
 app.use('/users', usersRouter);
-
+app.use('/product', productRouter);
 
 
 

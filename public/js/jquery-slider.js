@@ -23,9 +23,9 @@
                 elms.index = 1;    //预设图片的索引值
                 this.hover(function () {
                     stop();
-                    console.log('停止动画');
+                    //console.log('停止动画');
                 }, function () {
-                    console.log('开始');
+                    //console.log('开始');
                     timer = setInterval(start.bind(null, 1), defaults.delay + defaults.speed);
                 });
             }.bind(this)
